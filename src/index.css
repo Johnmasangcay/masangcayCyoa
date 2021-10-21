@@ -5,6 +5,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url(./images/wallpapersden.com_the-walking-dead-the-telltale-definitive-series_2560x1600.jpg);
+  height: 100vh;
+  width : 100vw;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 code {

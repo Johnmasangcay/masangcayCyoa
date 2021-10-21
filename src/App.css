@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -36,3 +37,253 @@
     transform: rotate(360deg);
   }
 }
+
+.title{
+  color: rgb(105, 32, 32) !important;
+  font-family: 'Eater', cursive;
+  padding-left: 87%;
+  height: 150px;
+  width: 50%;
+  opacity: 95%;
+}
+
+
+.titleBtn{
+  font-family: 'Noto Sans Mono', monospace;
+  padding-left: 90%;
+  text-decoration: none !important;
+  color: #110f0d !important;
+  font-size: 22px !important;
+  padding-top: 35%;
+  letter-spacing: 15px;
+}
+
+.titleBtn:hover{
+  text-shadow: 0 0 4px #141414;
+}
+
+
+.textSize{
+  font-size: 79px;
+}
+
+
+.optionTxt{
+  color: aliceblue;
+  font-family: 'Bungee', cursive;
+  text-decoration: none !important;
+  color: #d1cbcb !important;
+}
+
+.mainPageBtn{
+  letter-spacing: 5px;
+  font-family: 'Bungee', cursive;
+  text-decoration: none !important;
+  color: #b8b3b3 !important;
+}
+
+.mainPageBtn:hover{
+  text-shadow: 0 0 5px #4f90b3;
+}
+
+.mediaVol{
+  padding-left: 45%;
+  padding-top: 20%;
+  font-family: 'Bungee', cursive;
+}
+
+.mediaVolBtn{
+  padding-left: 45%;
+  padding-top: 5%;
+  font-family: 'Noto Sans Mono', monospace;
+}
+
+.scenePageBg{
+  background: url(./images/cyoaBg.jpg);
+  height: 100vh;
+  width : 100vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.optionPageBg{
+  background: url(./images/cyoaBg.jpg);
+  height: 100vh;
+  width : 100vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.btn1{
+  padding-top: 10%;
+  border-radius: 4px;
+}
+
+.btn2{
+  display: flex;
+  justify-content: end;
+}
+
+.navLink{
+  background: url(./images/cyoaBg.jpg);
+  height: 3vh;
+  width : 100vw;
+  border-radius: 0%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.sceneStyle{
+  color: #b8b3b3;
+  font-family: 'Noto Sans Mono', monospace;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.creditStyle{
+  color: #373434;
+  font-family: 'Noto Sans Mono', monospace;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.creditTxt{
+  padding-left: 75%;
+}
+ 
+.creditTxtSize{
+  font-size: 12px !important;
+  padding-left: 72%;
+  padding-top: 0px;
+  font-family: 'Noto Sans Mono', monospace;
+  color: #1a1a1b;
+}
+
+.modalTitle{
+  font-family: 'Bungee', cursive;
+  text-decoration: none !important;
+  color: #474746 !important;
+  font-size: 22px !important;
+  letter-spacing: 10px;
+}
+
+.storyScenePage{
+  font-family: 'Noto Sans Mono', monospace;
+  letter-spacing: 5px;
+  font-size: 25px !important;
+  color: #beafaf !important;
+}
+
+a{
+  position: relative;
+  display: inline-block;
+  padding: 15px 30px;
+  color: #1c262e !important;
+  font-family: 'Bungee', cursive;
+  text-transform: unset;
+  letter-spacing: 5px;
+  text-decoration: none !important;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+a:hover{
+  color: #b65e65;
+  background: #8a344a;
+  box-shadow: 0 0 10px #8a344a, 0 0 40px #8a344a;
+  transition-delay: 1s;
+}
+
+a span{
+  position: relative;
+  display: block;
+}
+
+a span:nth-child(1){
+  top: 0;
+  left: -5%;
+  width: 15%;
+  height: 2px;
+  background: linear-gradient(90deg,transparent,#8a344a);
+}
+
+a:hover span:nth-child(1){
+  left: 78%;
+  transition: 1s;
+}
+
+a span:nth-child(2){
+  bottom: 0;
+  right: -90%;
+  width: 15%;
+  height: 2px;
+  background: linear-gradient(270deg,transparent,#8a344a);
+}
+
+a:hover span:nth-child(2){
+  right: 5%;
+  transition: 1s;
+  /* transition-delay: 0.5s; */
+}
+
+.playPauseBtn{
+  position: relative;
+  height: 60px;
+  width: 200px;
+  margin: 0 35px;
+  border-radius: 50px !important;
+  border: none !important;
+  outline: none !important;
+  background: #111 !important;
+  color: #fff;
+  font-size: 20px !important;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  cursor: pointer;
+  /* padding-right: 20%; */
+}
+
+.playPauseBtn:first-child:hover{
+  background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4) !important;
+  background-size: 400% !important;
+}
+.playPauseBtn:last-child:hover{
+  background: linear-gradient(90deg, #fa7199, #f5ce62, #e43603, #fa7199) !important;
+  background-size: 400% !important;
+}
+
+.playPauseBtn:first-child:before,
+.playPauseBtn:last-child:before{
+  content: "";
+  position: absolute;
+  background: inherit;
+  top: -5px;
+  right: -5px;
+  bottom: -5px;
+  left: -5px;
+  border-radius: 50px;
+  filter: blur(20px);
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.playPauseBtn:first-child:hover:before,
+.playPauseBtn:last-child:hover:before{
+    opacity: 1;
+    z-index: -1;
+}
+
+.playPauseBtn:hover{
+  z-index: 1;
+  animation: glow 8s linear infinite;
+}
+@keyframes glow {
+  0%{
+    background-position: 0% !important;
+  }
+  100%{
+    background-position: 400% !important;
+  }
+}
+
+
